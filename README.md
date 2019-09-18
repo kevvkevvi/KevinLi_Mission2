@@ -1,6 +1,7 @@
 # Chucky-Chuck's Depressing Day---CSCI 3725 Mission 2: A Markov Distribution
 # Kevin Li
-Have you seen the "Sit Down Drank Stand Up Drank" meme? Well, if you haven't, here is a link: https://www.youtube.com/watch?v=mUB7t2Vat7c
+Have you seen the "Sit Down Drank Stand Up Drank" meme? Well, if you haven't, here is a link: https://www.youtube.com/watch?v=mUB7t2Vat7c.
+
 Whoooooaaa, imagine if you could use a Markov Chain to simulate a sequence like this---FOREVER. This is precisely what I did in Mission 2. I used the Unity Engine to create a lovely and handsome blue figure named Chucky-Chuck that happens to have a drinking problem. All he can do is: sleep, wake up, stand up, and drink! To make Chucky-Chuck do these "excruciating" tasks, I used Unity's animation and animator to simulate his 4 states and the transitions between them. I used Markov Chains by creating a matrix in Chucky-Chuck's component "Markov", which is connected to my code Markov.cs. The matrix has a size of 4x4, with the format of the conditional probability as "row given column". Attached is a photo of an example of the matrix. I used this matrix to determine the transitions between the states. As you can see, Chucky-Chuck is really depressed! Maybe we can lighten his mood next time......
 
 # How to Run:
